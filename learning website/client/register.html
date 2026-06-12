@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register | Online Learning Platform</title>
+  <link rel="stylesheet" href="css/login.css" />
+</head>
+<body>
+  <main class="auth-page">
+    <div class="auth-wrapper">
+      <section class="auth-info">
+        <div>
+          <p class="eyebrow">Start Learning</p>
+          <h1>Create your account</h1>
+          <p>Register to unlock engineering lessons, quizzes, certificates, and a dashboard built for progress.</p>
+          <ul>
+            <li>Easy registration for engineering courses</li>
+            <li>Quiz practice and instant performance feedback</li>
+            <li>Download certificates after course completion</li>
+          </ul>
+        </div>
+        <div class="auth-illustration">
+          <div class="shape circle"></div>
+          <div class="shape square"></div>
+          <div class="illustration-icon">🔧</div>
+          <div class="auth-visual">
+            <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="120" cy="120" r="100" fill="rgba(64, 86, 255, 0.08)" />
+              <path d="M110 70 L130 70 L138 100 L130 110 L110 110 L102 100 Z" fill="#4056ff" />
+              <rect x="82" y="122" width="76" height="76" rx="18" fill="#8f9bff" opacity="0.82" />
+              <path d="M98 142 L142 142" stroke="#fff" stroke-width="10" stroke-linecap="round" />
+              <path d="M120 122 L120 162" stroke="#fff" stroke-width="10" stroke-linecap="round" />
+            </svg>
+          </div>
+        </div>
+      </section>
+      <section class="auth-card">
+        <h1>Register</h1>
+        <form id="register-form">
+          <label>Name</label>
+          <input type="text" id="name" required />
+          <label>Email</label>
+          <input type="email" id="email" required />
+          <label>Password</label>
+          <input type="password" id="password" required minlength="6" />
+          <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+      </section>
+    </div>
+  </main>
+  <script src="js/auth.js"></script>
+</body>
+</html>

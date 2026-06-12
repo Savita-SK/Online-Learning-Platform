@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9fbff;
+}
+
+.course-header,
+.course-page {
+  width: min(1100px, 90%);
+  margin: 0 auto;
+}
+
+.course-header {
+  background: #1a73e8;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.course-header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.course-page {
+  padding: 2rem 0;
+}
+
+.course-page h2 {
+  margin-top: 0;
+}
+
+#enroll-button,
+#submit-quiz {
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.85rem 1.2rem;
+  cursor: pointer;
+}
+
+.lesson-item,
+.quiz-question,
+.certificate-card {
+  background: white;
+  border-radius: 0.9rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.quiz-question label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.certificate-card {
+  border-left: 4px solid #1a73e8;
+}

@@ -20,3 +20,8 @@ A key feature of the system is its automatic certificate generation, which rewar
 
 #output
 
+<img width="1802" height="1038" alt="Image" src="https://github.com/user-attachments/assets/cebeb618-188d-4161-a871-a20c0490227a" />
+
+<img width="1876" height="975" alt="Image" src="https://github.com/user-attachments/assets/040e707f-a640-4711-a22b-cf7d15b20372" />
+
+<img width="1876" height="980" alt="Image" src="https://github.com/user-attachments/assets/cf6d8bbe-71e6-49e4-babd-fa815ee27cb6" />
